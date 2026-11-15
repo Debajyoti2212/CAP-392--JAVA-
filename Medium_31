@@ -1,4 +1,4 @@
-class Solution {
+class Solution {https://github.com/Debajyoti2212/CAP-392--JAVA-/edit/main/Q31
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
         while (i >= 0 && nums[i] >= nums[i + 1]) i--;
